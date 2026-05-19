@@ -1,0 +1,125 @@
+# SmartFactory AI: Detailed Demo Video Script & Narration Guide
+
+This document serves as the step-by-step narration script, action guide, and visual storyboard for recording the 3-to-5-minute SmartFactory AI demo video. Use this to ensure all grading criteria (Google Antigravity usage, Agentic Reasoning, Impact Analysis, Action Simulation, and Premium UX) are highlighted with maximum impact.
+
+---
+
+## VIDEO OVERVIEW & PRE-REQUISITES
+- **Target Duration:** 4 minutes (ideal balance of detail and pacing)
+* **Visual Setup:** 
+  - Left side of screen: Mobile emulator or physical phone screen running the Expo App.
+  - Right side of screen: Split view showing terminal logs running the FastAPI server, showing real-time agent output.
+  - Optional: IDE view showing `gemini_client.py` fallback logic or `AgentTimeline.tsx` renderer.
+
+---
+
+## SEGMENT-BY-SEGMENT NARRATION SCRIPT & CLICK GUIDE
+
+### SEGMENT 1: The Hook & Core Problem (0:00 - 0:45)
+**Visuals:**
+- Start on the mobile app's brand new login portal screen showing the glowing chip icon and the high-fidelity header **"FactoryMind AI: Industrial Intelligence Portal"**.
+- The presenter can hover over the clean Login/Sign-up tabs to show off the smooth interactive states.
+
+**Presenter Script (Word-for-Word):**
+> "In modern manufacturing, unplanned machine downtime is a multi-billion dollar crisis. Operators are constantly flooded with static sensor alerts, but they lack context. They get a ping saying *'Temperature High on Line 3'* but have no idea why it happened, what it will cost, or how to fix it. 
+> 
+> Welcome to **FactoryMind AI**—a premium, multi-agent AI command center powered by Google Antigravity. Today, we're going to show you how our system goes beyond simple notifications to autonomously analyze, diagnose, plan, and simulate real-time resolutions for factory failures."
+
+**Actions:**
+1. Type a username (e.g. `manager_john`) and password in the text fields.
+2. Tap the blue **Sign In** button. Show the smooth transition to the main dashboard.
+
+---
+
+### SEGMENT 2: Dashboard Overview & Ingesting Data (0:45 - 1:30)
+**Visuals:**
+- Display the **Factory Command Center** dashboard screen (dark premium theme, real-time SVG production volume charts, and active alert list).
+- Tap on the **Ingest Data** (or analysis input) tab.
+
+**Presenter Script (Word-for-Word):**
+> "Once authenticated, we are taken to our Factory Command Center dashboard. Built with a premium industrial glassmorphism design, we can monitor live OEE status, production volumes, and active system anomalies. 
+> 
+> Let's go to our data analysis suite. Here, the system ingests raw, high-velocity CSV telemetry data and unstructured operator logs. This demonstrates our core **Content Understanding** capability. 
+> 
+> Let's run a new scenario analysis. We'll simulate a temperature spike anomaly on Machine 2. Watch our backend logs on the right as the multi-agent pipeline begins its orchestration."
+
+**Actions:**
+1. Tap on the **Input/Ingestion** tab.
+2. Choose the scenario for **Machine 2: Temperature Delta & Spindle Wear**.
+3. Click the **Run Multi-Agent Analysis** button.
+4. Immediately point your cursor to the running terminal on the right to show the agents waking up.
+
+---
+
+### SEGMENT 3: Multi-Agent In-Depth Reasoning & Fallback (1:30 - 2:45)
+**Visuals:**
+- Show the terminal logs updating live. Point out the API calls.
+- Highlight the **Google Vertex AI** API logs. If a 429 quota exhaustion is simulated or occurs on Google AI Studio, show how the system automatically switches to Vertex AI, then Groq.
+- Once the analysis finishes, the UI switches to the **Scenario Results** page. 
+
+**Presenter Script (Word-for-Word):**
+> "Look at the backend terminal. Under the hood, Google Antigravity orchestrates five highly specialized agents. 
+> 
+> 1. First, the **Data Analyst Agent** ingests the raw telemetry to extract insights. 
+> 2. Second, the **Contradiction Agent** cross-references unstructured operator reports against sensor data to spot lies or human errors.
+> 3. Third, our **Demand Planner Agent** runs an **Impact Analysis**—calculating exact downtime costs, supply chain delays, and contractual liabilities.
+> 
+> Notice how the orchestration handles API quotas. If our developer key hits a rate limit, the client instantly fails over to **Google Vertex AI** and then **Groq**, saving the pipeline from failing. 
+> 
+> Now, back to our mobile screen. The analysis is complete. Let's tap into the **Agent Pipeline Timeline** to see the structured reasoning traces."
+
+**Actions:**
+1. On the mobile screen, tap on **Agent 1: Machine Health**.
+2. Scroll through the modal. Point out the **REASONING TRACE LOG** and the **DETAILED FINDINGS** section.
+
+**Script Highlight:**
+> "Notice the clear, step-by-step reasoning trace log: *Initializing context window... Extracting anomalies... Applying bounds...* 
+> 
+> Below that, look at the **Detailed Findings**. Instead of dumping unreadable raw JSON, our custom parser displays the results in high-contrast bold bullet points. We can clearly see that Machine 2 is at critical risk due to temperature deviations, with telemetry showing an 87% failure probability."
+
+---
+
+### SEGMENT 4: Action Generation & Simulation (2:45 - 3:30)
+**Visuals:**
+- Scroll down the Scenario Results page to the **Mitigation Actions** section.
+- Point out the generated recommendations: "Reroute workload to Line 4," "Dispatch Tier 2 spindle specialist," "Trigger replacement parts order."
+- Point at the **Simulate Resolution** button.
+
+**Presenter Script (Word-for-Word):**
+> "Having diagnosed the issue and analyzed the financial impact, our **Action Planner Agent** generates highly domain-specific mitigation steps. It doesn't just say *'do maintenance'*. It prescribes exact workflows: rerouting the active load, ordering a replacement component, and dispatching a qualified specialist.
+> 
+> Now, let's look at the core of our system: **Action Simulation**. When I click 'Simulate Resolution', the backend runs a simulated loop calling external warehouse APIs, updating our Supabase system state, and correcting the machine's risk factors."
+
+**Actions:**
+1. Tap the **Simulate Resolution** button.
+2. Watch the terminal logs show mock API requests to parts procurement and scheduling services.
+3. Show the success modal showing: **"Simulation Success: System State Updated!"**
+
+---
+
+### SEGMENT 5: Outcome Visualization & Wrap-Up (3:30 - 4:00)
+**Visuals:**
+- Show the Before/After comparison charts on the results page.
+- Explain the visual change: Risk Score drops from 87% to 15%, Operating Costs decrease, and Production rate recovers.
+- Navigate back to the home dashboard to show the critical alert cleared.
+
+**Presenter Script (Word-for-Word):**
+> "Look at our **Outcome Visualization**. We have a clear Before-and-After impact simulator:
+> - Risk Score plummeted from **87% down to 15%**.
+> - Weekly production rate recovered back to normal.
+> - The live command center alert is now cleared.
+> 
+> By utilizing a multi-agent system powered by Google Antigravity, FactoryMind AI converts raw, messy factory logs into real-world business savings. Thank you for watching!"
+
+---
+
+## KEY TALKING POINTS FOR THE GRADING CRITERIA
+
+| Criteria | Script Action / Talking Point |
+| :--- | :--- |
+| **Google Antigravity (25%)** | "Our multi-agent orchestration and dynamic fallback hierarchy is managed entirely by Google Antigravity's framework, enabling reliable failover from AI Studio to Vertex AI." |
+| **Agentic Reasoning (20%)** | "We aren't just summarizing text. Five specialized agents pass state and variables sequentially, evaluating logical rules before committing actions." |
+| **Content Ingestion (15%)** | "We parse complex CSV sensor telemetry files containing thousands of points along with unstructured textual shift logs." |
+| **Insight & Impact (15%)** | "We calculate and predict specific mechanical failures and correlate them with operational financial metrics (downtime cost)." |
+| **Action Simulation (15%)** | "The resolution isn't theoretical; the system makes mock API calls, updates database tables, and alters the state of the factory twin." |
+| **Aesthetics & UX (10%)** | "FactoryMind AI utilizes a custom dark-slate layout with orange industrial highlights, custom SVG visualizations, and highly formatted findings." |
